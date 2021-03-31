@@ -38,21 +38,29 @@ We have thoroughly prepared our data for visualization, and we can now return to
 
 We will now proceed to plot our data to help us get a better sense of how each of these criteria translate to a movie's success.
 
-### Genre vs. Movie Success
+### 1. What genres of movie are likely to succeed?
 
 To examine which genres have the highest KPIs, we will use bar plots. This enables us to clearly see the aggregate median values for each of our genres.
 
+Our bar plot indicates that Musicals have a tendency to receive higher ratings with non-fictional genres including History, Biography and Sports following closely behind. 
+
+However, the most profitable genres by far appear to be Horror, Musicals, and Mystery.
+
+The Musical genre appears to be a top performer in both cases, but otherwise, genre choice will depend on whether Microsoft's goal is to build a reputation for building good movies, or if it is purely to maximize profits in the most efficient use of its budget.
+
 ![png](output_53_0.png)
+   
     
 
-### Genre vs. Production Costs
+### 2. What genres cost the most and least to produce?
 
 To examine which genres have the highest mean production costs, we will use bar plots. This plot will indicate clearly which genres on average cost the most to produce.
 
-    
+Musicals are by far the most costly genre of movie to produce, followed by Fantasy, Sci-Fi and Adventure. The lowest costing genres are War, Horror and Mystery.
+
 ![png](output_55_0.png)
     
-
+### 3. How does production budget affect the success of a movie?
 
 ### Production Budget vs. Percentage Profit
 
@@ -71,27 +79,6 @@ We can see above that due to extreme outliers, our regression plot is distorted,
 In this situation, it is appropriate to use a regression plot to display a marker for each of our movies, showing the relationship between each movie's production budget and its respective KPI.
 
 
-    
-![png](output_60_0.png)
-    
-
-
-## Evaluation
-
-### 1. What genres of movie are likely to succeed?
-
-Our bar plot indicates that Musicals have a tendency to receive higher ratings with non-fictional genres including History, Biography and Sports following closely behind. 
-
-However, the most profitable genres by far appear to be Horror, Musicals, and Mystery.
-
-The Musical genre appears to be a top performer in both cases, but otherwise, genre choice will depend on whether Microsoft's goal is to build a reputation for building good movies, or if it is purely to maximize profits in the most efficient use of its budget.
-
-### 2. What genres cost the most and least to produce?
-
-Musicals are by far the most costly genre of movie to produce, followed by Fantasy, Sci-Fi and Adventure. The lowest costing genres are War, Horror and Mystery.
-
-### 3. How does production budget affect the success of a movie?
-
 We can see in our regression plot that as production budget increases, there is a positive trend in average rating. Conversely, we can see that profit percentages tend to decrease with larger budget movies.
 
 In this case, it is important to note that the margin of error is skewed on the extremes of the budget. There are a much higher number of samples that are low budget, and fewer samples that are high budget. 
@@ -99,6 +86,11 @@ In this case, it is important to note that the margin of error is skewed on the 
 Therefore, we can tell that a **higher budget is more likely to receive a higher rating, while likely to return a lower profit percentage**, but movie budget is not a definitive indicator of how successful a movie will be.
 
 This plot gives us enough information now to make a conclusion on what Microsoft should keep in mind when creating its first films.
+
+
+    
+![png](output_60_0.png)
+    
 
 ## Conclusions
 
